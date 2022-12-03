@@ -1,6 +1,6 @@
 # MyProject
 ## 📖 About the Project
-This project is about to create mobile version
+This project is about to finish mobile version
 ## 🛠 Built With
 -HTML 
 -CSS
