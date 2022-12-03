@@ -212,7 +212,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 90%;
-  margin: 0 auto;
+  margin: 114px, 24px, 114px, 24px;
   overflow: hidden;
   background-color: #fff;
   border-top-right-radius: 5rem;
