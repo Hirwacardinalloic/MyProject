@@ -1,6 +1,6 @@
 # MyProject
 ## 📖 About the Project
-This project is about to create Hello Microverse 
+This project is about to create mobile version
 ## 🛠 Built With
 -HTML 
 -CSS
