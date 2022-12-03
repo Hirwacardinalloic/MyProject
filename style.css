@@ -2,7 +2,7 @@
 
 body {
   font-family: "poppins", sans-serif;
-  background: #e5e5e5;
+  background: #f7f7f9;
   margin: 0;
   height: 100vh;
 }
@@ -14,7 +14,8 @@ body {
   background-repeat: no-repeat, no-repeat;
   padding: 80px 25px 114px 25px;
   background-color: #fff;
-  height: 100%;
+  height: 70%;
+  border-bottom-left-radius: 5em;
 }
 
 .connection {
@@ -70,4 +71,253 @@ body {
   gap: 15px;
   list-style: none;
   padding: 0;
+}
+
+.scroll {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+  width: 100%;
+  padding: 100px 0;
+  background-color: #f7f7f9;
+}
+
+.box-contain {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #7a869a;
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 16px;
+  background-color: #fff;
+  list-style: none;
+  margin-bottom: 50px;
+}
+
+.box-contain ul {
+  padding: 0;
+  margin: 0;
+}
+
+.ptflio-item {
+  width: 90%;
+  margin: 0 auto;
+  list-style: none;
+  padding: 20px 0;
+  background-color: #fff;
+  display: flex;
+  flex-flow: column;
+}
+
+.ptflio-image {
+  height: 220px;
+  width: 100%;
+  left: 16px;
+  top: 16px;
+  border-radius: 8px;
+}
+
+.lists-container {
+  width: 100%;
+  align-items: center;
+}
+
+.lists {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+
+.lists-item {
+  color: #7a869a;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  text-transform: capitalize;
+}
+
+.lists .obect1 {
+  text-transform: capitalize;
+  color: #344563;
+}
+
+.text-holder {
+  position: static;
+  width: 327px;
+  left: 24px;
+  top: 276px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  padding-top: 8px;
+  padding-bottom: 6px;
+}
+
+.helloo {
+  position: static;
+  width: 327px;
+  height: 146px;
+  left: 24px;
+  top: 276px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  padding-top: 8px;
+  padding-bottom: 6px;
+}
+
+.language-container {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  gap: 8px;
+  list-style: none;
+}
+
+.language-item {
+  background: #ebebff;
+  border-radius: 8px;
+  padding: 5px 10px;
+  margin: 0 2px;
+  font-size: 14px;
+  border-color: #396df2;
+  color: #396df2;
+}
+
+.butto {
+  font-size: 19px;
+  color: #396df2;
+  padding: 13px;
+  background-color: transparent;
+  margin-top: 2rem;
+  border: 1px solid #396df2;
+  border-radius: 6px;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 0 auto;
+  overflow: hidden;
+  background-color: #fff;
+  border-top-right-radius: 5rem;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+  padding-left: 24px;
+  padding-right: 24px;
+  background-repeat: no-repeat, no-repeat;
+  background-size: cover, 100% 100%;
+}
+
+.about-me .ico {
+  position: static;
+  left: 0;
+  top: 0;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.about-me .ico-img {
+  padding-left: 0;
+  justify-content: flex-start;
+  gap: 28px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 13px;
+  list-style: none;
+  padding-top: 10px;
+}
+
+.resume-btn {
+  font-size: 19px;
+  color: #396df2;
+  padding: 13px;
+  background-color: transparent;
+  border: 1px solid #396df2;
+  border-radius: 6px;
+  padding-top: 9px;
+  margin-top: 3px;
+}
+
+.lang {
+  margin: 30px 0 0 0;
+  padding: 0;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.languages {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+}
+
+.languages li {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  background-color: #f7f7f9;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.languages li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.lang-exp {
+  margin: 0;
+  display: grid;
+  grid-gap: 20px;
+}
+
+.lang-exp hr {
+  width: 100%;
+}
+
+.no-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.no-1 p {
+  font-weight: bold;
+  margin: 0;
+}
+
+.lang .lang-exp .no-1 span i {
+  color: #acb7c3;
 }
