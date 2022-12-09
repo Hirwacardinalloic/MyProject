@@ -164,7 +164,7 @@ body {
 .helloo {
   position: static;
   width: 327px;
-  height: 146px;
+  height: 144px;
   left: 24px;
   top: 276px;
   font-family: "Poppins", sans-serif;
@@ -198,21 +198,25 @@ body {
   color: #396df2;
 }
 
-.butto {
-  font-size: 19px;
+.butto:enabled {
+  font-family: 'Poppins';
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 3%;
   color: #396df2;
   padding: 13px;
   background-color: transparent;
   margin-top: 2rem;
-  border: 1px solid #396df2;
-  border-radius: 6px;
+  border: 1px solid#6070FF;
+  border-radius: 8px;
 }
 
 .about-me {
   display: flex;
   flex-direction: column;
   width: 90%;
-  margin: 114px, 24px, 114px, 24px;
   overflow: hidden;
   background-color: #fff;
   border-top-right-radius: 5rem;
