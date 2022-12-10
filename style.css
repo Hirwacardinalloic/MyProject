@@ -199,6 +199,7 @@ body {
 }
 
 .butto:enabled {
+  font-family: 'Poppins', sans-serif;
   font-size: 17px;
   font-style: normal;
   font-weight: 500;
