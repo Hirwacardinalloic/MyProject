@@ -1,6 +1,6 @@
 # MyProject
 ## 📖 About the Project
-This project is about to finish mobile version
+This project is about to Create Contact form on Mobile-Version
 ## 🛠 Built With
 -HTML 
 -CSS
@@ -24,7 +24,7 @@ Contributions, issues, and feature requests are welcome!
 ## ⭐️ Show your support
 Give a ⭐️ if you like this project
 ## 🙏 Acknowledgements
- Microverse program 
+- Microverse program 
 - My standup team 
 - My family's support 
 
