@@ -363,7 +363,7 @@ body {
 .form-sections {
   margin-top: 2rem;
   list-style-type: none;
-  padding: 24px;
+  padding: 0;
 }
 
 .form-input {
