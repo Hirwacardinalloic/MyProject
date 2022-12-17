@@ -1,9 +1,10 @@
 # MyProject
 ## 📖 About the Project
-This project is about to Create Contact form on Mobile-Version
+This project is about to create Responsive Desktop version
 ## 🛠 Built With
 -HTML 
 -CSS
+-Media Queries
 
 ## 💻 Getting Started
 To get a local copy up and running, follow these steps.
