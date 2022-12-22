@@ -1,303 +1,418 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> mobile version</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>myProject</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
     <header class="header">
-        <a href="#" class="logo"> My Logo </a>
-        <nav>
-          <button type="button" class="buto">
-            <img alt="nav" class="menu" src="./images/Union.png" />
-          </button>
-        </nav>
-      </header>
-  
+      <nav class="header-container">
+        <a id="logo" class="logo" href="#">My Logo</a>
+        <ul class="header-list">
+          <li class="header-item"><a href="#Portfolio">Portofolio</a></li>
+          <li class="header-item"><a href="#About">About</a></li>
+          <li class="header-item"><a href="#Contact">Contact</a></li>
+        </ul>
+        <button type="button" id="menu-btn" class="menu">
+          <img class="mobile-menu" src="images/Union.png" alt=" navigation" />
+        </button>
+      </nav>
+    </header>
+    <main class="main">
       <section class="flex-container">
-        <div class="intro">
-          <h1>I'm Loic<br />Glad to see<br />you</h1>
-        </div>
-        <p class="introduction">
-          I'm software developer! I can help you<br />to build a product, feature
-          or website look<br />through some of my work and<br />
-          experience! If you like what you see and<br />have a project you need to
-          coded, don't<br />hesitate to contact me.
-        </p>
-        <h4 class="connection">LET'S CONNECT</h4>
-        <div class="social">
-          <ul>
+        <div class="header-holder">
+          <h1 class="first-text">I’m loic <br />Glade to see you!</h1>
+          <p class="second-text">
+            I’m a software developer! I can help you build a product , feature
+            or website Look through some of my work and experience! If you like
+            what you see and have a project you need coded, don’t hestiate to
+            contact me.
+          </p>
+          <h4 class="icon">LET’S CONNECT</h4>
+          <ul class="icon-img">
             <li>
-              <a href="#"> <img alt="twitter" src="./images/twitter.png" /> </a>
+              <a href="#"
+                ><img
+                  class="t-social-media"
+                  src="images/twitter.png"
+                  alt="twitter"
+              /></a>
             </li>
             <li>
-              <a href="#"> <img alt="linkedin" src="./images/linkedin.png" /></a>
+              <a href="#"
+                ><img
+                  class="l-social-media"
+                  src="images/linkedin.png"
+                  alt="linkedIn"
+              /></a>
             </li>
             <li>
-              <a href="#"> <img alt="medium" src="./images/medium.png" /></a>
+              <a href="#"
+                ><img
+                  class="m-social-media"
+                  src="images/medium.png"
+                  alt="medium"
+              /></a>
             </li>
             <li>
-              <a href="#"> <img alt="github" src="./images/github.png" /></a>
+              <a href="#"
+                ><img
+                  class="g-social-media"
+                  src="images/github.png"
+                  alt="github"
+              /></a>
             </li>
             <li>
-              <a href="#"> <img alt="vec" src="./images/vec.png" /></a>
+              <a href="#"
+                ><img class="v-social-media" src="images/vec.png" alt="vector"
+              /></a>
             </li>
           </ul>
         </div>
       </section>
-      <section class="scroll">
-        <div class="box-contain">
-          <ul>
-            <li class="ptflio-item">
-              <img
-                class="ptflio-image"
-                src="./images/Snapshoot-Portfolio.png"
-                alt="Portfolio"
-              />
-              <section>
-                <div class="lists-container">
-                  <h2>Tonic</h2>
-                  <div class="lists">
-                    <span class="lists-item obect1">CANOPY</span>
-                    <img src="./images/Counter.png" alt="Dot Counter" />
-                    <span class="lists-item">back end Dev</span>
-                    <img src="./images/Counter.png" alt="Dot Counter" />
-                    <span class="lists-item">2015</span>
-                  </div>
+    </main>
+
+    <section class="scroll">
+      <div class="card-contain">
+        <ul class="cards-list">
+          <li class="hold-item item1">
+            <img
+              class="hold-image"
+              src="./images/Snapshoot1.png"
+              alt="Portfolio Portfolio"
+            />
+            <section>
+              <div class="lists-container">
+                <h2>Tonic</h2>
+                <div class="lists">
+                  <span class="lists-item obect1">CANOPY</span>
+                  <img
+                    class="btno"
+                    src="images/Counter.png"
+                    alt="Dot Counter"
+                  />
+                  <span class="lists-item">back end Dev</span>
+                  <img
+                    class="btno"
+                    src="images/Counter.png"
+                    alt="Dot Counter"
+                  />
+                  <span class="lists-item">2015</span>
                 </div>
-  
-                <div class="text-holder">
-                  <p>
-                    A daily selection of privately personalized reads; no accounts
-                    or sign-ups required.
-                  </p>
-                </div>
-                <div class="language-list-holder">
-                  <ul class="language-container">
-                    <li class="language-item"><span>Html</span></li>
-                    <li class="language-item"><span>Css</span></li>
-                    <li class="language-item"><span>Javascript</span></li>
-                  </ul>
-                </div>
-                <button type="button" class="butto">See project</button>
-              </section>
-            </li>
-          </ul>
-        </div>
-  
-        <div class="box-contain">
-          <ul>
-            <li class="ptflio-item">
-              <img
-                class="ptflio-image"
-                src="./images/Snapshoot-Portfolio2.png"
-                alt="Portfolio"
-              />
-              <div>
-                <section>
-                  <div class="lists-container">
-                    <h2>Multi-Post <br> Stories</h2>
-                    <div class="lists">
-                      <span class="lists-item obect1">CANOPY</span>
-                      <img src="./images/Counter.png" alt="Dot Counter" />
-                      <span class="lists-item">back end Dev</span>
-                      <img src="./images/Counter.png" alt="Dot Counter" />
-                      <span class="lists-item">2015</span>
-                    </div>
-                  </div>
-                  <div class="text-holder">
-                    <p>
-                      A daily selection of privately personalized reads; no
-                      accounts or sign-ups required.
-                    </p>
-                  </div>
-                  <div class="language-list-holder">
-                    <ul class="language-container">
-                      <li class="language-item"><span>Html</span></li>
-                      <li class="language-item"><span>css</span></li>
-                      <li class="language-item"><span>JavaScript</span></li>
-                    </ul>
-                  </div>
-                  <button type="button" class="butto">See project</button>
-                </section>
               </div>
-            </li>
-          </ul>
-        </div>
-  
-        <div class="box-contain">
-          <ul>
-            <li class="ptflio-item">
-              <img
-                class="ptflio-image"
-                src="./images/Snapshoot-Portfolio3.png"
-                alt="Portfolio"
-              />
-              <section>
-                <div class="lists-container">
-                  <h2>Tonic</h2>
-                  <div class="lists">
-                    <span class="lists-item obect1">CANOPY</span>
-                    <img src="./images/Counter.png" alt="Dot Counter" />
-                    <span class="lists-item">back end Dev</span>
-                    <img src="./images/Counter.png" alt="Dot Counter" />
-                    <span class="lists-item">2015</span>
-                  </div>
-                </div>
-                <div class="text-holder">
-                  <p>
-                    A daily selection of privately personalized reads; no accounts
-                    or sign-ups required.
-                  </p>
-                </div>
-                <div class="language-list-holder">
-                  <ul class="language-container">
-                    <li class="language-item"><span>Html</span></li>
-                    <li class="language-item"><span>Css</span></li>
-                    <li class="language-item"><span>JavaScript</span></li>
-                  </ul>
-                </div>
-                <button type="button" class="butto">See project</button>
-              </section>
-            </li>
-          </ul>
-        </div>
-  
-        <div class="box-contain">
-          <ul>
-            <li class="ptflio-item">
-              <img
-                class="ptflio-image"
-                src="./images/Snapshoot-Portfolio4.png"
-                alt="Portfolio"
-              />
-              <section>
-                <div class="lists-container">
-                  <h2>Multi-Post <br> Stories</h2>
-                  <div class="lists">
-                    <span class="lists-item obect1">CANOPY</span>
-                    <img src="./images/Counter.png" alt="Dot Counter" />
-                    <span class="lists-item">back end Dev</span>
-                    <img src="./images/Counter.png" alt="Dot Counter" />
-                    <span class="lists-item">2015</span>
-                  </div>
-                </div>
-                <div class="text-holder">
-                  <p>
-                    A daily selection of privately personalized reads; no accounts
-                    or sign-ups required.
-                  </p>
-                </div>
-                <div class="language-list-holder">
-                  <ul class="language-container">
-                    <li class="language-item"><span>Html</span></li>
-                    <li class="language-item"><span>Css</span></li>
-                    <li class="language-item"><span>JavaScript</span></li>
-                  </ul>
-                </div>
-                <button type="button" class="butto">See project</button>
-              </section>
-            </li>
-          </ul>
-        </div>
-      </section>
-      <section class="about-me">
-        <div class="about-me-holder">
-          <section>
-            <h2 class="head">About <br> Myself</h2>
-            <p class="helloo">
-               Hello I’m a software developer! I can help you build a product ,
-               feature or website Look through some of my work and experience! If
-               you like what you see and have a project you need coded, don’t
-               hestiate to contact me.
-            </p>
-            <h4 class="ico">LET’S CONNECT</h4>
-            <ul class="ico-img">
-              <li>
-                <a href="#"
-                  ><img
-                    class="t-social-media"
-                    src="./images/github.png"
-                    alt="twitter"
-                /></a>
-              </li>
-              <li>
-                <a href="#"
-                  ><img
-                    class="l-social-media"
-                    src="./images/linkedin.png"
-                    alt="linkedIn"
-                /></a>
-              </li>
-              <li>
-                <a href="#"
-                  ><img
-                    class="m-social-media"
-                    src="./images/vec.png"
-                    alt="medium"
-                /></a>
-              </li>
-              <li>
-                <a href="#"
-                  ><img
-                    class="g-social-media"
-                    src="./images/twitter.png"
-                    alt="github"
-                /></a>
-              </li>
-              <li>
-                <a href="#"
-                  ><img
-                    class="v-social-media"
-                    src="./images/medium.png"
-                    alt="vector"
-                /></a>
-              </li>
-            </ul>
-            <button type="button" class="resume-btn">Get my resume</button>
-          </section>
-          <section>
-            <ul class="lang">
-              <li class="lang-exp">
-                <div class="no-1">
-                  <p>Languages</p>
-                  <img src="./images/arrows-down.png" alt="arrow_bottom" />
-                </div>
-                <ul class="languages">
-                  <li>
-                    <img src="./images/js.png" alt="JavaScript" />
-                    <a href="#">JavaScript</a>
-                  </li>
-                  <li>
-                    <img src="./images/css..png" alt="CSS" />
-                    <a href="#">HTML</a>
-                  </li>
-                  <li>
-                    <img src="./images/html..png" alt="CSS" />
-                    <a href="#">CSS</a>
-                  </li>
+
+              <div class="second-text">
+                <p>
+                  A daily selection of privately personalized reads; no accounts
+                  or sign-ups required.
+                </p>
+              </div>
+              <div class="language-list-holder">
+                <ul class="language-container">
+                  <li class="language-item"><span>JavaScript</span></li>
+                  <li class="language-item"><span>Html</span></li>
+                  <li class="language-item"><span>Css</span></li>
                 </ul>
-              </li>
-              <li class="lang-exp">
-                <div class="no-1">
-                  <p>Frameworks</p>
-                  <img src="./images/Arrow.png" alt="arrow_bottom" />
+              </div>
+              <button type="button" class="click-btn">See project</button>
+            </section>
+          </li>
+        </ul>
+      </div>
+
+      <div class="card-contain">
+        <ul class="cards-list">
+          <li class="hold-item item2">
+            <img
+              class="hold-image"
+              src="images/Snapshoot3.png"
+              alt="Portfolio Portfolio"
+            />
+            <section>
+              <div class="lists-container">
+                <h2>Multi-post Stories</h2>
+                <div class="lists">
+                  <span class="lists-item obect1">FACEBOOK</span>
+                  <img
+                    class="btno"
+                    src="images/Counter.png"
+                    alt="Dot Counter"
+                  />
+                  <span class="lists-item">Full Stack Dev</span>
+                  <img
+                    class="btno"
+                    src="images/Counter.png"
+                    alt="Dot Counter"
+                  />
+                  <span class="lists-item">2015</span>
                 </div>
-                <hr />
-              </li>
-              <li class="lang-exp">
-                <div class="no-1">
-                  <p>Skills</p>
-                  <img src="./images/Arrow.png" alt="arrow_bottom" />
+              </div>
+              <div class="second-text">
+                <p>
+                  Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.
+                </p>
+              </div>
+              <div class="language-list-holder">
+                <ul class="language-container">
+                  <li class="language-item"><span>html</span></li>
+                    <li class="language-item"><span>Ruby on rails</span></li>
+                    <li class="language-item"><span>Css</span></li>
+                    <li class="language-item"><span>JavaScript</span></li>
+                </ul>
+              </div>
+              <button type="button" class="click-btn">See project</button>
+            </section>
+          </li>
+        </ul>
+      </div>
+
+      <div class="card-contain">
+        <ul class="cards-list">
+          <li class="hold-item item3">
+            <img
+              class="hold-image"
+              src="images/Snapshoot2.png"
+              alt="Portfolio Portfolio"
+            />
+
+            <div>
+              <section id="Portfolio">
+                <div class="lists-container">
+                  <h2>Facebook 360</h2>
+                  <div class="lists">
+                    <span class="lists-item obect1">FACEBOOK</span>
+                    <img
+                      class="btno"
+                      src="images/Counter.png"
+                      alt="Dot Counter"
+                    />
+                    <span class="lists-item">Full stack Dev</span>
+                    <img
+                      class="btno"
+                      src="images/Counter.png"
+                      alt="Dot Counter"
+                    />
+                    <span class="lists-item">2015</span>
+                  </div>
                 </div>
-                <hr />
-              </li>
-            </ul>
-          </section>
+                <div class="second-text">
+                  <p>
+                    Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.
+                  </p>
+                </div>
+                <div class="language-list-holder">
+                  <ul class="language-container">
+                    <li class="language-item"><span>html</span></li>
+                    <li class="language-item"><span>Ruby on rails</span></li>
+                    <li class="language-item"><span>Css</span></li>
+                    <li class="language-item"><span>JavaScript</span></li>
+                  </ul>
+                </div>
+                <button type="button" class="click-btn">See project</button>
+              </section>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="card-contain">
+        <ul class="cards-list">
+          <li class="hold-item item4">
+            <img
+              class="hold-image"
+              src="images/Snapshoot4.png"
+              alt="Portfolio Portfolio"
+            />
+            <section>
+              <div class="lists-container">
+                <h2>Uber Navigation</h2>
+                <div class="lists">
+                  <span class="lists-item obect1">CANOPY</span>
+                  <img
+                    class="btno"
+                    src="images/Counter.png"
+                    alt="Dot Counter"
+                  />
+                  <span class="lists-item">back end Dev</span>
+                  <img
+                    class="btno"
+                    src="images/Counter.png"
+                    alt="Dot Counter"
+                  />
+                  <span class="lists-item">2015</span>
+                </div>
+              </div>
+              <div class="second-text">
+                <p>
+                  A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.
+                </p>
+              </div>
+              <div class="language-list-holder">
+                <ul class="language-container">
+                  <li class="language-item"><span>html</span></li>
+                  <li class="language-item"><span>Ruby on rails</span></li>
+                  <li class="language-item"><span>Css</span></li>
+                  <li class="language-item"><span>JavaScript</span></li>
+                </ul>
+              </div>
+              <button type="button" class="click-btn">See project</button>
+            </section>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section id="About" class="about-container">
+      <div class="about-me-holder">
+        <section>
+          <h2 class="first-text">
+            About <br />
+            Myself
+          </h2>
+          <p class="second-text">
+            Hello I’m a software developer! I can help you build a product ,
+            feature or website Look through some of my work and experience! If
+            you like what you see and have a project you need coded, don’t
+            hestiate to contact me.
+          </p>
+          <h4 class="icon">LET’S CONNECT</h4>
+          <ul class="icon-img">
+            <li>
+              <a href="#"
+                ><img
+                  class="t-social-media"
+                  src="images/twitter.png"
+                  alt="twitter"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  class="l-social-media"
+                  src="images/linkedin.png"
+                  alt="linkedIn"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  class="m-social-media"
+                  src="images/medium.png"
+                  alt="medium"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  class="g-social-media"
+                  src="images/github.png"
+                  alt="github"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img class="v-social-media" src="images/vec.png" alt="vector"
+              /></a>
+            </li>
+          </ul>
+          <button type="button" class="click-btn">Get my resume</button>
+        </section>
+        <section>
+          <ul class="lang">
+            <li class="lang-exp">
+              <div class="no-1">
+                <p>Languages</p>
+                <img src="images/arrows-down.png" alt="arrow_bottom" />
+              </div>
+              <ul class="languages">
+                <li>
+                  <img src="images/js.png" alt="JavaScript" />
+                  <a href="#">JavaScript</a>
+                </li>
+                <li>
+                  <img src="images/html..png" alt="CSS" />
+                  <a href="#">HTML</a>
+                </li>
+                <li>
+                  <img src="images/css..png" alt="CSS" />
+                  <a href="#">CSS</a>
+                </li>
+              </ul>
+            </li>
+            <li class="lang-exp">
+              <div class="no-1">
+                <p>Frameworks</p>
+                <img src="images/arrow.png" alt="arrow_bottom" />
+              </div>
+              <hr />
+            </li>
+            <li class="lang-exp">
+              <div class="no-1">
+                <p>Skills</p>
+                <img src="images/arrow.png" alt="arrow_bottom" />
+              </div>
+              <hr />
+            </li>
+          </ul>
+        </section>
+      </div>
+    </section>
+
+    <footer>
+      <section id="Contact" class="contacts">
+        <div class="contact-intro">
+          <h1 class="contact-me">Contact me</h1>
+          <p class="paragraph item">
+            If you have an application you are interested in developing, a
+            feature that you need built or a project that needs coding. I’d love
+            to help with it
+          </p>
         </div>
+        <form
+          class="contact-section"
+          action="https://formspree.io/f/xyyoddrv"
+          method="post"
+        >
+          <input
+            id="name"
+            class="text-holder1"
+            type="text"
+            name="name"
+            maxlength="30"
+            required
+            placeholder="Name"
+          />
+          <input
+            id="email"
+            class="text-holder1"
+            type="email"
+            name="name"
+            required
+            placeholder="Email"
+          />
+          <textarea
+            id="message"
+            class="text-area"
+            placeholder="Write your message here"
+            maxlength="500"
+            required
+          ></textarea>
+          <div id="form-button">
+            <button
+              id="clicked-btn"
+              class="click-btn"
+              type="submit"
+              name="sumit"
+            >
+              Get In Touch
+            </button>
+            <p id="form-error"></p>
+          </div>
+        </form>
       </section>
-</body>
+    </footer>
+  </body>
 </html>
