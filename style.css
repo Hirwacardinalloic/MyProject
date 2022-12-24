@@ -157,6 +157,7 @@ button:disabled {
   margin-top: 2rem;
   border: 1px solid #396df2;
   border-radius: 6px;
+  transition: width 2s, height 4s;
 }
 
 .card-contain {
@@ -165,6 +166,7 @@ button:disabled {
   margin: 12px auto;
   border-radius: 16px;
   background-color: #fff;
+  transition: all 0.2s ease-in;
 }
 
 .btno {

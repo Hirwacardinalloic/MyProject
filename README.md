@@ -1,10 +1,9 @@
 # MyProject
 ## 📖 About the Project
-This project is about to create Responsive Desktop version
+This project is about adding animation and transition
 ## 🛠 Built With
 -HTML 
 -CSS
--Media Queries
 
 ## 💻 Getting Started
 To get a local copy up and running, follow these steps.
