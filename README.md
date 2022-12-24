@@ -1,6 +1,7 @@
 # MyProject
 ## 📖 About the Project
-This project is about adding animation and transition
+This project is about Application Deploy, here is the link: https://hirwacardinalloic.github.io/MyProject/
+
 ## 🛠 Built With
 -HTML 
 -CSS
