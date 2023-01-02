@@ -1,6 +1,6 @@
 # MyProject
 ## 📖 About the Project
-This project is about Application Deploy, here is the link: https://hirwacardinalloic.github.io/MyProject/
+This project is about Application Deployment, Here is the link: https://hirwacardinalloic.github.io/MyProject/
 
 ## 🛠 Built With
 -HTML 
