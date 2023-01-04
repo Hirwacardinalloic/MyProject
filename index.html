@@ -4,29 +4,48 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>myProject</title>
+    <title>MyProject</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="popUp.css" />
     <script defer src="menu.js"></script>
+    <script defer src="popUp.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
 
   <body>
-    <header class="header">
-      <nav class="header-container">
+    <header class="navibar">
+      <nav class="nav-container">
         <a id="logo" class="logo" href="#">My Logo</a>
-        <ul class="header-list">
-          <li class="header-item"><a href="#Portfolio">Portofolio</a></li>
-          <li class="header-item"><a href="#About">About</a></li>
-          <li class="header-item"><a href="#Contact">Contact</a></li>
+        <ul class="nav-list">
+          <li class="navi-item"><a href="#Portfolio">Portofolio</a></li>
+          <li class="navi-item"><a href="#About">About</a></li>
+          <li class="navi-item"><a href="#Contact">Contact</a></li>
         </ul>
-        <button type="button" id="menu-btn" class="menu">
+        <button type="button" id="menu-btn">
           <img class="mobile-menu" src="images/Union.png" alt=" navigation" />
         </button>
       </nav>
     </header>
+    <section id="mobile-menu">
+      <i class="fa-solid fa-xmark" id="close-menu"></i>
+      <ul>
+        <li class="navbar-item menu">
+          <a href="#Portfolio">Portofolio</a>
+        </li>
+        <li class="navbar-item menu"><a href="#About">About</a></li>
+        <li class="navbar-item menu"><a href="#Contact">Contact</a></li>
+      </ul>
+    </section>
     <main class="main">
-      <section class="flex-container">
+      <section class="h-container">
         <div class="header-holder">
-          <h1 class="first-text">I’m loic <br />Glade to see you!</h1>
+          <h1 class="first-text">I’m Loic <br />Glade to see you!</h1>
           <p class="second-text">
             I’m a software developer! I can help you build a product , feature
             or website Look through some of my work and experience! If you like
@@ -76,6 +95,7 @@
         </div>
       </section>
     </main>
+
 
     <section class="scroll">
       <div class="card-contain">
