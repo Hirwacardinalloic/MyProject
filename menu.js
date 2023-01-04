@@ -5,7 +5,7 @@ const quit = document.querySelectorAll('.menu');
 const menuItems = Array.from(quit);
 
 function preventScroll(e) {
-  e.preventDefault();
+  e.tpreventDefault();
   e.stopPropagaion();
   return false;
 }
