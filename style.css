@@ -44,6 +44,9 @@ body {
   gap: 8px;
   font-size: larger;
   list-style-type: none;
+  height: 812px;
+  width: 375px;
+  border-radius: 0;
   opacity: 0.9;
   top: 0;
   left: 0;
@@ -51,6 +54,7 @@ body {
   bottom: 0;
   margin: 0;
   z-index: 99;
+  mix-blend-mode: multiply;
 }
 
 #close-menu {
@@ -72,22 +76,29 @@ body {
 }
 
 .first-text {
-  width: 60%;
+  /* width: 60%; */
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 40px;
   line-height: 42px;
   color: #172b4d;
+  width: 327px;
+  left: 24px;
+  top: 114px;
 }
 
 .second-text {
-  width: 100%;
+  /* width: 100%; */
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   color: #344563;
+  height: 146px;
+  width: 327px;
+  left: 24px;
+  top: 276px;
 }
 
 .icon {
@@ -344,12 +355,12 @@ button:disabled {
 
 #mobile-menu ul li {
   list-style: none;
-  margin: 40px 0;
+  margin: 20px 0;
 }
 
 #mobile-menu ul li a {
   text-decoration: none;
-  color: #ebebff;
+  color: #ffff;
   font-family: "poppins", sans-serif;
   font-size: larger;
 }
