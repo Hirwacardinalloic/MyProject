@@ -24,7 +24,7 @@
   width: 100%;
   background-color: rgb(251, 245, 248);
   color: #7a869a;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 15px;
@@ -84,7 +84,7 @@
 
 .modal-description {
   width: 70%;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   text-align: left;
   color: #344563;
   font-size: 18px;
@@ -163,11 +163,10 @@
 
   .modal-description {
     width: 100%;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     text-align: left;
     color: #344563;
     font-size: 18px;
-
   }
 
   .click-btn {
