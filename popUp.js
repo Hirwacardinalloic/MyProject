@@ -45,6 +45,7 @@ const Allbuttons = document.querySelectorAll('.click-btn');
 const btns = Array.from(Allbuttons);
 
 function desktop(index) {
+  overlay.classList.add('active')
   popUp.style.display = 'block';
   popUp.appendChild(projectDetailCard);
   projectDetailCard.innerHTML = `
@@ -110,6 +111,8 @@ function desktop(index) {
 document.addEventListener('click', (event) => {
   if (event.target.id === 'close-popUp') {
     popUp.style.display = 'none';
+    overlay.classList.remove('active')
+
   }
 });
 
