@@ -26,10 +26,12 @@ To get a local copy up and running, follow these steps.
  - Twitter: [@loicard]
 
 ## Key Feature
- - To guide those in need
+ - Project tiles
+- Interactive icons
 
 ## 🔭 Future Features
- - am going to add contact validation
+ - Adding projects I have done
+ - CV page
 
 ## 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
