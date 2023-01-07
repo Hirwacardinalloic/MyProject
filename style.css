@@ -369,7 +369,7 @@ button:disabled {
 #form-error {
   display: none;
   background-color: #dfe1e6;
-  color: rgb(240, 34, 34);
+  color: blue;
   font-size: 15px;
   line-height: 24px;
   font-family: "Roboto", sans-serif;
