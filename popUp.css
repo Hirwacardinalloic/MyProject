@@ -18,7 +18,7 @@
   bottom: 0;
   right: 0;
   left: 0;
-  background-color: rgba(6, 6, 172, 0.3);
+  background-color: rgba(6, 6, 172, 0.6);
   pointer-events: none;
   z-index: 4;
   transition: 200ms ease-in-out;

@@ -6,7 +6,7 @@ const projects = [
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scramble.",
     technologies: ['html', 'css', 'javascript', 'Github', 'Ruby', 'Bootstrap'],
     seeLiveLink: '#',
-    seeSourceLink: '#',
+    seeSourceLink: 'https://github.com/Hirwacardinalloic/MyProject',
   },
   {
     title: 'TONIC ',
@@ -16,7 +16,7 @@ const projects = [
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scramble.",
     technologies: ['html', 'css', 'javascript', 'Github', 'Ruby', 'Bootstrap'],
     seeLiveLink: '#',
-    seeSourceLink: '#',
+    seeSourceLink: 'https://github.com/Hirwacardinalloic/MyProject',
   },
   {
     title: 'TONIC ',
@@ -25,7 +25,7 @@ const projects = [
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scramble.",
     technologies: ['html', 'css', 'javascript', 'Github', 'Ruby', 'Bootstrap'],
     seeLiveLink: '#',
-    seeSourceLink: '#',
+    seeSourceLink: 'https://github.com/Hirwacardinalloic/MyProject',
   },
   {
     title: 'TONIC ',
@@ -34,14 +34,14 @@ const projects = [
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scramble.",
     technologies: ['html', 'css', 'javascript', 'Github', 'Ruby', 'Bootstrap'],
     seeLiveLink: '#',
-    seeSourceLink: '#',
+    seeSourceLink: 'https://github.com/Hirwacardinalloic/MyProject',
   },
 ];
 
 const projectDetailCard = document.createElement('div');
 projectDetailCard.className = 'project-detail-card';
 const popUp = document.getElementById('project-details');
-const Allbuttons = document.querySelectorAll('.click-btn');
+const Allbuttons = document.querySelectorAll('.project-button');
 const btns = Array.from(Allbuttons);
 
 function desktop(index) {
