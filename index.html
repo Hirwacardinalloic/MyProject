@@ -4,11 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MyProject</title>
+    <title> My Project</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="popUp.css" />
     <script defer src="menu.js"></script>
     <script defer src="popUp.js"></script>
+    <script defer src="validation.js"></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
@@ -45,7 +46,7 @@
     <main class="main">
       <section class="h-container">
         <div class="header-holder">
-          <h1 class="first-text">I’m Loic <br />Glade to see you!</h1>
+          <h1 class="first-text">I’m loic <br />Glade to see you!</h1>
           <p class="second-text">
             I’m a software developer! I can help you build a product , feature
             or website Look through some of my work and experience! If you like
@@ -96,8 +97,7 @@
       </section>
     </main>
 
-
-    <section class="scroll" id="portfolio">
+    <section class="projects" id="portfolio">
       <div class="card-contain">
         <ul class="cards-list">
           <li class="hold-item item1">
@@ -381,17 +381,17 @@
         </section>
       </div>
     </section>
-
     <footer>
       <section id="Contact" class="contacts">
         <div class="contact-intro">
           <h1 class="contact-me">Contact me</h1>
-          <p class="paragraph item">
+          <p class="paragraph">
             If you have an application you are interested in developing, a
             feature that you need built or a project that needs coding. I’d love
             to help with it
           </p>
         </div>
+        <p id="form-error"></p>
         <form
           class="contact-section"
           action="https://formspree.io/f/xyyoddrv"
@@ -404,7 +404,7 @@
             name="name"
             maxlength="30"
             required
-            placeholder="Name"
+            placeholder="name"
           />
           <input
             id="email"
@@ -412,7 +412,7 @@
             type="email"
             name="name"
             required
-            placeholder="Email"
+            placeholder="email"
           />
           <textarea
             id="message"
@@ -422,18 +422,14 @@
             required
           ></textarea>
           <div id="form-button">
-            <button
-              id="clicked-btn"
-              class="click-btn"
-              type="submit"
-              name="sumit"
-            >
+            <button class="clicked-btn" type="submit" name="sumit">
               Get In Touch
             </button>
-            <p id="form-error"></p>
+
           </div>
         </form>
       </section>
     </footer>
+    <section id="project-details"></section>
   </body>
 </html>
