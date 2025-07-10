@@ -1,0 +1,48 @@
+.about-container {
+    background-color: #fff;
+    border-top-right-radius: 5rem;
+    padding: 4rem 2rem;
+    margin-top: 5rem;
+  }
+  
+  .about-me-holder {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .about-me-holder section {
+    flex: 1;
+  }
+  
+  .icon-img {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .icon-img li img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .lang-exp {
+    margin-bottom: 1rem;
+  }
+  
+  .languages li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: #f7f7f9;
+    padding: 10px;
+    border-radius: 5px;
+    list-style: none;
+  }
+  
+  .languages li a {
+    text-decoration: none;
+    color: #000;
+  }
+  

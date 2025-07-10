@@ -1,0 +1,27 @@
+/* src/styles/Projects.css */
+.card-contain {
+    border: 1px solid #7a869a;
+    width: 90%;
+    margin: 12px auto;
+    border-radius: 16px;
+    background-color: #fff;
+    transition: all 0.2s ease-in;
+  }
+  
+  .cards-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .hold-item {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .hold-image {
+    height: 300px;
+    width: 90%;
+    border-radius: 8px;
+  }
+  
