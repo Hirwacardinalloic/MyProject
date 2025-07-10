@@ -1,0 +1,46 @@
+.hero-container {
+    background-image: url("../images/header-shapes-mobile.png"), url("../images/header-background-mobile.png");
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover, 100% 100%;
+    padding: 114px 24px;
+    text-align: left;
+  }
+  
+  .first-text {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 42px;
+    color: #172b4d;
+    max-width: 327px;
+  }
+  
+  .second-text {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #344563;
+    margin-top: 16px;
+    max-width: 327px;
+  }
+  
+  .icon {
+    font-weight: 500;
+    font-size: 16px;
+    color: #7f8cff;
+    margin-top: 16px;
+  }
+  
+  .icon-img {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    padding-left: 0;
+    list-style: none;
+  }
+  
+  .icon-img li img {
+    width: 20px;
+    height: 20px;
+  }
+  
